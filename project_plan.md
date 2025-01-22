@@ -60,11 +60,10 @@
   - Análisis de consistencia
   - Evaluación de la calidad del texto
   
-  ### 2.9 Técnicas Avanzadas de Balanceo de Datos
+  ### 2.9 Técnicas de Balanceo de Datos
   - Implementación de SMOTE para clases minoritarias
   - Técnicas de data augmentation para reviews poco representadas
   - Validación cruzada estratificada
-  - Análisis de impacto del balanceo en el rendimiento
   
 - [ ] Crear pipeline de preprocesamiento de datos
   - Limpieza de texto
@@ -81,15 +80,12 @@
   - Random Forest
 - [ ] Realizar optimización de hiperparámetros
 - [ ] Documentar resultados y métricas
-- [ ] Implementar pruebas de robustez y adversarial attacks
-- [ ] Evaluar latencia y consumo de recursos
 
 ## 4. Implementación de LSTM (4 días)
 - [ ] Preparar datos para modelo LSTM
 - [ ] Desarrollar arquitectura Bidirectional LSTM
 - [ ] Entrenar y validar modelo
 - [ ] Comparar resultados con modelos tradicionales
-- [ ] Optimizar modelo para producción (pruning, quantization)
 
 ## 5. Implementación de Transformers (10 días)
 - [ ] Seleccionar y justificar modelo pre-entrenado
@@ -99,26 +95,10 @@
 - [ ] Implementar sistema de generación de resúmenes
 - [ ] Documentar mejoras y resultados
 - [ ] Evaluar modelos específicos para español/inglés (BETO/RoBERTa)
-- [ ] Implementar DistilBERT para optimización en producción
+- [ ] Implementar DistilBERT para optimización
 - [ ] Evaluar métricas BLEU y ROUGE para resúmenes
-- [ ] Realizar pruebas de latencia y optimización
 
-## 6. MLOps y Monitoreo (5 días)
-- [ ] Configurar MLflow para tracking de experimentos
-- [ ] Implementar DVC para versionado de datos
-- [ ] Configurar Weights & Biases para monitoreo
-- [ ] Desarrollar sistema de detección de model drift
-- [ ] Implementar pipeline de reentrenamiento automático
-- [ ] Configurar logging detallado para producción
-
-## 7. Optimización y Pruebas (5 días)
-- [ ] Implementar ONNX para optimización de modelos
-- [ ] Configurar TensorRT para inferencia rápida
-- [ ] Implementar Ray para distributed training
-- [ ] Realizar pruebas de stress y seguridad
-- [ ] Optimizar rendimiento en producción
-
-## 8. Visualización y Dashboard (4 días)
+## 6. Visualización y Dashboard (4 días)
 - [ ] Diseñar estructura del dashboard
 - [ ] Implementar visualizaciones interactivas:
   - Distribución de sentimientos por categoría
@@ -127,14 +107,13 @@
   - Palabras clave por sentimiento
 - [ ] Crear interfaz interactiva
 
-## 9. Desarrollo Web (5 días)
+## 7. Desarrollo Web (5 días)
 - [ ] Diseñar API REST para el modelo
 - [ ] Desarrollar interfaz web básica
 - [ ] Implementar funcionalidad de predicción en tiempo real
 - [ ] Realizar pruebas de integración
-- [ ] Preparar para deployment
 
-## 10. Documentación y Presentación (5 días)
+## 8. Documentación y Presentación (5 días)
 - [ ] Escribir documentación técnica
 - [ ] Preparar reporte PDF
 - [ ] Crear presentación PowerPoint
@@ -160,15 +139,13 @@ project/
 ├── docs/
 └── requirements.txt
 
-
 ## Tecnologías Propuestas
-- **Procesamiento de Datos**: Pandas, NumPy, SMOTE, DVC
+- **Procesamiento de Datos**: Pandas, NumPy, SMOTE
 - **NLP**: NLTK, SpaCy, Transformers, BETO, RoBERTa
-- **Machine Learning**: Scikit-learn, TensorFlow/Keras, ONNX, TensorRT
-- **MLOps**: MLflow, Weights & Biases, Ray
+- **Machine Learning**: Scikit-learn, TensorFlow/Keras
 - **Visualización**: Plotly, Streamlit
 - **Web**: FastAPI/Flask
-- **Deployment**: Docker, Heroku/AWS
+- **Deployment**: Docker
 
 ## Próximos Pasos Inmediatos
 1. Confirmar roles del equipo
@@ -181,6 +158,3 @@ project/
 - Tiempo de respuesta < 2 segundos para predicciones
 - Dashboard funcional y responsive
 - Documentación clara y completa
-- Model drift < 5% en producción
-- Latencia promedio < 100ms para inferencia
-- Cobertura de pruebas > 80%
