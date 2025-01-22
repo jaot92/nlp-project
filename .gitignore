@@ -1,0 +1,55 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos grandes y binarios
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.iso
+*.dmg
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Directorios comunes que suelen contener archivos grandes
+node_modules/
+dist/
+build/
+uploads/
+media/
+videos/
+downloads/
+
+# Archivos de ambiente y secretos
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de caché
+.cache/
+.temp/
+.tmp/
+
+# Archivos específicos del proyecto NLP
+data/raw/*.csv
+models/**/*.joblib
+models/balanced/
+models/traditional/
+
+# Directorios de datos y modelos (por si acaso hay más archivos grandes)
+data/
+models/ 
