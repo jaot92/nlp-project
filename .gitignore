@@ -46,10 +46,9 @@ yarn-error.log*
 
 # Archivos específicos del proyecto NLP
 data/raw/*.csv
-models/**/*.joblib
-models/balanced/
-models/traditional/
 
 # Directorios de datos y modelos (por si acaso hay más archivos grandes)
-data/
-models/ 
+# Archivos grandes específicos del proyecto
+models/bert_sentiment/model.safetensors
+models/balanced/random_forest_combined_model.joblib
+data/raw/Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv
