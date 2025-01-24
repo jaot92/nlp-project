@@ -50,5 +50,10 @@ data/raw/*.csv
 # Directorios de datos y modelos (por si acaso hay más archivos grandes)
 # Archivos grandes específicos del proyecto
 models/bert_sentiment/model.safetensors
+models/checkpoints/checkpoint-1360/model.safetensors
+models/checkpoints/checkpoint-1360/optimizer.pt
+models/t5_summarizer/model.safetensors
 models/balanced/random_forest_combined_model.joblib
+.git/objects/pack/tmp_pack_as1HGE
+.git/objects/pack/tmp_pack_KCoyOW
 data/raw/Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv

@@ -1,0 +1,132 @@
+{
+    "summaries": {
+        "Tablets & E-readers": {
+            "1": {
+                "summary": "i bought this tablet around black friday for $60 hoping it would be awesome... it failed so hard i tried multiple different micro SD cards none of which were recognized... i even tried to have the tablet do it... didnt work... i tried to use aftermarket play stores to play clash of clans but it didnt work... launched and played 1 time but didnt update after that... i returned it and bought a $250 samsung galaxy tab A 10.1 (2016 version) with S-pen .",
+                "review_count": 50,
+                "avg_length": 228.36
+            },
+            "2": {
+                "summary": "i bought this tablet as a replacement for my wife's broken iPad mini . but the internet was sooooooo slow that it drove us crazy . this is not a realistic alternative to an iPad or Galaxy Note .",
+                "review_count": 50,
+                "avg_length": 192.9
+            },
+            "3": {
+                "summary": "tablet is responsive with good resolution. It is too tied to amazon. It requires too many hoops to get apps such as Zinio to work. Pros:This version has dropped all android support as far as I can tell.",
+                "review_count": 50,
+                "avg_length": 237.74
+            },
+            "4": {
+                "summary": "i love being able to easily access all of the Prime content as well as movies you can download and watch later . the build on this fire is INSANELY AWESOME running at only 7.7mm thick and the smooth glossy feel on the back it is really amazing to hold in ur hands . not easy for elderly users cease of ads that pop up .",
+                "review_count": 50,
+                "avg_length": 136.12
+            },
+            "5": {
+                "summary": "amazon fire 8 is a great tablet for the price, would recommend it to anyone looking for a basic tablet . for the money you cannot beat this tablet . the picture quality is great, and the speed is very fast while using the internet .",
+                "review_count": 50,
+                "avg_length": 122.66
+            }
+        },
+        "Amazon Devices & Assistants": {
+            "1": {
+                "summary": "i purchased this device at launch (2 pack for $384.xx) and now YouTube doesn't work . without YouTube you'll be better off buying the $40 Echo Dot instead . i waited a couple months to review giving amazon time to make this product equal to the SONY Dash .",
+                "review_count": 7,
+                "avg_length": 421.85714285714283
+            },
+            "2": {
+                "summary": "i really liked the idea of having a device I could talk to out of nowhere . it is also gratifying to be able to tell a device to play music and it does . i was quite disappointed in the ability of Alexa to answer any serious questions .",
+                "review_count": 19,
+                "avg_length": 236.57894736842104
+            },
+            "3": {
+                "summary": "amazon dropped the ball on this one . i'm not recomending this product at this time because of the cost and poor performance . the sound is OK--not quite as good as the non-screen Echo .",
+                "review_count": 45,
+                "avg_length": 211.35555555555555
+            },
+            "4": {
+                "summary": "i'm a big echo fan, so this seemed like a no brainer . it's a great device to stay connected with family . i'm also thrilled that i can get my Pandora stations .",
+                "review_count": 50,
+                "avg_length": 227.44
+            },
+            "5": {
+                "summary": "i am a casual user of on-demand content and devices . apple TV is easy to use but lacks a lot in features as well and is slow . i have had a full week with my new Kindle Paperwhite and I am in love .",
+                "review_count": 50,
+                "avg_length": 549.32
+            }
+        },
+        "Electronics (General)": {
+            "1": {
+                "summary": "i received two Certified Refurbished defective fire tvs . the first the screen looked half corrupted, see the pictures . the second fire tv was stuck in an infinite loop where I would only see the amazon logo for 10 seconds then it would boot up again .",
+                "review_count": 50,
+                "avg_length": 219.64
+            },
+            "2": {
+                "summary": "i bought this for the ability to hard wire my Ethernet connection to my gigabit switch . i may have to switch it out as the HDMI port on these might be finicky . in my opinion these did not last anywhere near as long as Duracel in things like LED candles .",
+                "review_count": 50,
+                "avg_length": 198.94
+            },
+            "3": {
+                "summary": "i bought these for my christmas gifts the month of (december) only lasted like 2months toys now need replacement batteries . i have not done any tests, but feel some other brands may last longer .",
+                "review_count": 50,
+                "avg_length": 149.58
+            },
+            "4": {
+                "summary": "AmazonBasics AA AAA batteries are quite good in terms of capacity . they're tied for the top spot compared to the other 6 brands I've tested . for the cost (0.31/ea in a 36 pack right now), these are a decent but beatable value .",
+                "review_count": 50,
+                "avg_length": 225.72
+            },
+            "5": {
+                "summary": "i bought this after being an avid apple fan for the last 10 years . it was a great switch to the firetv and I have not looked back . i have been able to load numerous apps that are not available on the apple TV .",
+                "review_count": 50,
+                "avg_length": 173.48
+            }
+        }
+    },
+    "rating_distribution": {
+        "0.0": {
+            "Amazon Devices & Assistants": 0.5976095617529881,
+            "Electronics (General)": 0.008224360555966774,
+            "Tablets & E-readers": 0.04233622324074585
+        },
+        "1.0": {
+            "Amazon Devices & Assistants": 0.46480743691899074,
+            "Electronics (General)": 6.217616580310881,
+            "Tablets & E-readers": 1.242476116847976
+        },
+        "2.0": {
+            "Amazon Devices & Assistants": 1.2616201859229748,
+            "Electronics (General)": 3.2732955012747764,
+            "Tablets & E-readers": 1.2056620096821102
+        },
+        "3.0": {
+            "Amazon Devices & Assistants": 2.9880478087649402,
+            "Electronics (General)": 4.474052142445925,
+            "Tablets & E-readers": 4.257551493732398
+        },
+        "4.0": {
+            "Amazon Devices & Assistants": 18.658698539176626,
+            "Electronics (General)": 11.49765605724155,
+            "Tablets & E-readers": 25.250796105067465
+        },
+        "5.0": {
+            "Amazon Devices & Assistants": 76.02921646746348,
+            "Electronics (General)": 74.52915535817091,
+            "Tablets & E-readers": 68.0011780514293
+        }
+    },
+    "metadata": {
+        "categories": [
+            "Tablets & E-readers",
+            "Amazon Devices & Assistants",
+            "Electronics (General)"
+        ],
+        "ratings": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "last_updated": "2025-01-23 23:35:54"
+    }
+}

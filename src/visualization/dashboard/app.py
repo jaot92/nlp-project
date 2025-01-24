@@ -9,8 +9,9 @@ import textwrap
 def load_summarization_model():
     """Cargar el modelo T5 para generación de resúmenes"""
     try:
-        tokenizer = T5Tokenizer.from_pretrained('t5-base')
-        model = T5ForConditionalGeneration.from_pretrained('t5-base')
+        model_path = 'models/t5_summarizer'
+        tokenizer = T5Tokenizer.from_pretrained(model_path)
+        model = T5ForConditionalGeneration.from_pretrained(model_path)
         return tokenizer, model
     except Exception as e:
         st.error(f"Error al cargar el modelo: {str(e)}")
