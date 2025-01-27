@@ -128,37 +128,8 @@ def create_visualizations(df):
         except Exception as e:
             st.warning(f"No se pudo generar el gráfico temporal: {str(e)}")
 
-def generate_rating_summaries(df):
-    st.header("Resúmenes por Rating")
-    
-    # Cargar modelo de resumen
-    tokenizer, model = load_summarization_model()
-    
-    if tokenizer is None or model is None:
-        st.error("No se pudo cargar el modelo de resúmenes.")
-        return
-    
-    # Ajustar ratings 0 a 1
-    df['reviews.rating'] = df['reviews.rating'].replace(0, 1)
-    
-    for rating in range(1, 6):
-        with st.expander(f"Rating {rating}"):
-            filtered_reviews = df[df['reviews.rating'] == rating]['reviews.text'].head(50)
-            
-            if len(filtered_reviews) > 0:
-                with st.spinner(f"Generando resumen para rating {rating}..."):
-                    st.info(f"Analizando {len(filtered_reviews)} reviews...")
-                    summary = generate_summary_for_reviews(filtered_reviews, tokenizer, model)
-                    st.write(summary)
-                    
-                    # Mostrar cantidad de reviews para este rating
-                    total_reviews = len(df[df['reviews.rating'] == rating])
-                    st.metric("Total de Reviews", total_reviews)
-            else:
-                st.warning(f"No hay reviews con rating {rating}")
-
-def generate_category_summaries(df):
-    st.header("Resúmenes por Categoría y Rating")
+def generate_summaries_section(df):
+    st.header("Generador de Resúmenes")
     
     # Cargar modelo de resumen
     tokenizer, model = load_summarization_model()
@@ -215,6 +186,7 @@ def generate_category_summaries(df):
         else:
             st.warning("No hay suficientes reviews para esta combinación de categoría y rating.")
 
+
 def main():
     st.set_page_config(
         page_title="Amazon Reviews Analysis",
@@ -242,11 +214,8 @@ def main():
         # Mostrar visualizaciones
         create_visualizations(df)
         
-        # Sección de resúmenes por rating
-        generate_rating_summaries(df)
-        
-        # Sección de resúmenes por categoría
-        generate_category_summaries(df)
+        # Sección de resúmenes
+        generate_summaries_section(df)
     else:
         st.info("Por favor, sube un archivo CSV para comenzar el análisis.")
 

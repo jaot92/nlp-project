@@ -1,27 +1,39 @@
 name: nlp-reviews
 channels:
-  - conda-forge
   - pytorch
+  - conda-forge
   - defaults
 dependencies:
   - python=3.9
+  - pip>=21.0
+  - pytorch>=2.1.0
+  - cudatoolkit>=11.8
   - numpy>=1.21.0
   - pandas>=2.1.4
   - scikit-learn>=1.0.0
-  - nltk>=3.6.0
-  - spacy>=3.0.0
-  - transformers>=4.36.2
-  - pytorch>=1.9.0
   - tensorflow>=2.8.0
+  - spacy>=3.1.0
+  - nltk>=3.6.3
   - plotly>=5.18.0
   - streamlit>=1.31.0
-  - torch==2.1.0
-  - fastapi>=0.68.0
-  - uvicorn>=0.15.0
-  - python-dotenv>=0.19.0
   - jupyter>=1.0.0
+  - pip:
+    - transformers>=4.36.2
+    - datasets>=2.14.0
+    - evaluate>=0.4.0
+    - accelerate>=0.20.0
+    - sentencepiece>=0.1.99
+    - textblob>=0.15.3
+    - fastapi>=0.68.0
+    - uvicorn>=0.15.0
+    - python-dotenv>=0.19.0
+    - mlflow>=2.8.0
+    - wandb>=0.15.0
+    - pytest>=6.2.5
+    - black>=21.7b0
+    - flake8>=3.9.2
+    - pre-commit>=2.15.0
   - matplotlib>=3.4.0
   - seaborn>=0.11.0
   - wordcloud>=1.8.0
-  - ipykernel
-  - pip 
+  - ipykernel 
