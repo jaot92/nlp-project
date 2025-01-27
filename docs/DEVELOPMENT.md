@@ -2,7 +2,7 @@
 
 Esta guía proporciona información detallada sobre cómo configurar el entorno de desarrollo y contribuir al proyecto.
 
-## Configuración del Entorno
+## Configuración de Entorno
 
 ### Requisitos Previos
 

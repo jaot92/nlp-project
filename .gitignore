@@ -47,7 +47,6 @@ yarn-error.log*
 # Archivos específicos del proyecto NLP
 data/raw/*.csv
 
-# Directorios de datos y modelos (por si acaso hay más archivos grandes)
 # Archivos grandes específicos del proyecto
 models/bert_sentiment/model.safetensors
 models/checkpoints/checkpoint-1360/model.safetensors
